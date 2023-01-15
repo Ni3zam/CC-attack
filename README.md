@@ -30,7 +30,7 @@ Using multiproc.sh with socks4 on a vps
 ![](https://i.imgur.com/KLJIZs8.png)
 
 Attack requests from Cloudflare activity log
-![](https://i.ibb.co/ySTWQ2M/Screenshot-119.png)
+![](https://user-images.githubusercontent.com/21289340/212525157-8c694b7a-d2bd-4fab-8f65-5ddf4dd9a496.png)
 
 ## Install
     If you only have one version of python:
@@ -40,6 +40,7 @@ Attack requests from Cloudflare activity log
     python cc.py -help
 
     If you are using multiple version of python:
+
     git clone https://github.com/Ni3zam/CC-attack.git
     cd CC-attack
     pip3 install -r requirements.txt
