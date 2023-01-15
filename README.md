@@ -29,6 +29,9 @@
 Using multiproc.sh with socks4 on a vps
 ![](https://i.imgur.com/KLJIZs8.png)
 
+Attack requests from Cloudflare activity log
+![](https://i.ibb.co/ySTWQ2M/Screenshot-119.png)
+
 ## Install
     If you only have one version of python:
     git clone https://github.com/Ni3zam/CC-attack.git
