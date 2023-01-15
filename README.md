@@ -9,9 +9,9 @@
  A script for using socks4/5 or http proxies to attack http(s) server.
 
  News:
-- [x] Added Support of HTTP proxies
-- [x] Updated proxy list based on rewritten script.
-- [ ] Note: Proxy checker are currently not working. I'll fix later.
+- ✅ Added Support of HTTP proxies
+- ✅ Updated proxy list based on rewritten script.
+- ❌ Note: Proxy checker are currently not working. I'll fix later.
 
  Info:
 - [x] Using Python3
