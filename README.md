@@ -14,16 +14,16 @@
 - ❌ Note: Proxy checker are currently not working. I'll fix later.
 
  Info:
-- [x] Using Python3
-- [x] Added more human-like options
-- [x] Http Get/Head/Post/Slow Flood
-- [x] Random Http Header/Data
-- [x] Socks4/5 Proxies Downloader
-- [x] Socks4/5 Proxies Checker
-- [x] Customize Cookies
-- [x] Customize Post Data 
-- [x] Support HTTPS
-- [x] Support Socks4/5
+- ✅ Using Python3
+- ✅ Added more human-like options
+- ✅ Http Get/Head/Post/Slow Flood
+- ✅ Random Http Header/Data
+- ✅ Socks4/5 Proxies Downloader
+- ✅ Socks4/5 Proxies Checker
+- ✅ Customize Cookies
+- ✅ Customize Post Data 
+- ✅ Support HTTPS
+- ✅ Support Socks4/5
 
 ## Showcase
 Using multiproc.sh with socks4 on a vps
