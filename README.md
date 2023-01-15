@@ -11,6 +11,7 @@
  News:
 - [x] Added Support of HTTP proxies
 - [x] Updated proxy list based on rewritten script.
+- [/] Note: Proxy checker are currently not working. I'll fix later.
 
  Info:
 - [x] Using Python3
