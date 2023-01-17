@@ -11,7 +11,7 @@
  News:
 - ✅ Added Support of HTTP proxies
 - ✅ Updated proxy list based on rewritten script.
-- ❌ Proxy checker are currently not working for now. You can still use the script without checking the proxy.
+- ✅ Proxy checker are now fixed.
 
  Info:
 - ✅ Using Python3
