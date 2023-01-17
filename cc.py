@@ -635,6 +635,9 @@ def DownloadProxies(proxy_ver):
             "https://rootjazz.com/proxies/proxies.txt",
             "https://sheesh.rip/http.txt",
             "https://www.proxy-list.download/api/v1/get?type=https",
+            "http://pubproxy.com/api/proxy?limit=5&format=txt&type=http",
+            "https://proxylist.geonode.com/api/proxy-list?limit=500&page=1&sort_by=lastChecked&sort_type=desc&protocols=http",
+            "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
         ]
         for api in http_api:
             try:
