@@ -12,6 +12,7 @@
 - ✅ Added Support of HTTP proxies
 - ✅ Updated proxy list based on rewritten script.
 - ✅ Proxy checker are now fixed.
+- ✅ Added more proxies.
 
  Info:
 - ✅ Using Python3
