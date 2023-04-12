@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 # Coded by Leeon123
-# Updated by Ni3zam
+# Updated by Vip3r_Li0n
 
-#########################################
-#  This is not the rewrote CC-Attack!   #
-#                           -- Ni3zam   #
-#########################################
+#############################################
+#  This is not the rewrote CC-Attack!       #
+#                           -- Vip3r_Li0n   #
+#############################################
 import requests
 import socket
 import socks
@@ -21,27 +21,28 @@ import urllib3
 
 
 print('''
->--------------------------------------------->
-	   /////    /////    /////////////
-	  CCCCC/   CCCCC/   | CC-attack |/
-	 CC/      CC/       |-----------|/
-	 CC/      CC/       |  Layer 7  |/
-	 CC/////  CC/////   |  Tools    |/
-	  CCCCC/   CCCCC/   |___________|/
->--------------------------------------------->
+>-------------------------------------------------->
+	     /////    /////    /////////////
+	    CCCCC/   CCCCC/   | CC-attack |/
+	   CC/      CC/       |-----------|/
+	   CC/      CC/       |  Layer 7  |/
+	   CC/////  CC/////   |  Tools    |/
+	    CCCCC/   CCCCC/   |___________|/
+>-------------------------------------------------->
 Version 3.7.2 (2023/1/15)
                               C0d3d by Leeon123
-                              Updated by Ni3zam
-┌────────────────────────────────────────────────┐
-│        Tos: Don't attack .gov website          │
-├────────────────────────────────────────────────┤
-│                 New stuff:                     │
-│          [+] Added Http Proxy Support          │
-│          [+] Optimization                      │
-│          [+] Changed Varible Name              │
-├────────────────────────────────────────────────┤
-│ Author: https://github.com/Leeon123/CC-Attack  │
-└────────────────────────────────────────────────┘
+                              Updated by Vip3r_Li0n
+┌──────────────────────────────────────────────────┐
+│        Tos: Don't attack .gov website            │
+├──────────────────────────────────────────────────┤
+│                  New stuff:                      │
+│           [+] Added Http Proxy Support           │
+│           [+] Optimization                       │
+│           [+] Changed Varible Name               │
+├──────────────────────────────────────────────────┤
+│  Author: https://github.com/Leeon123/CC-Attack   │
+│  Forked:  https://github.com/Ni3zam/CC-attack    │
+└──────────────────────────────────────────────────┘
 ''')
 
 acceptall = [
@@ -86,6 +87,7 @@ referers = [
     "https://www.google.al/search?q=",
     "https://www.google.am/search?q=",
     "https://www.google.co.ao/search?q=",
+    "https://www.google.co.il/search?q=",
 ]
 
 ######### Default value ########
@@ -357,7 +359,7 @@ def post(event, proxy_type):
         except:
             s.close()
 
-# Updated and fixed by Ni3zam
+# Updated and fixed by Vip3r_Li0n
 
 
 def slow_atk_conn(proxy_type, rlock):
@@ -397,7 +399,7 @@ def slow_atk_conn(proxy_type, rlock):
 
 
 socket_list = []
-# Updated and fixed by Ni3zam
+# Updated and fixed by Vip3r_Li0n
 
 
 def slow(conn, proxy_type):
@@ -434,7 +436,7 @@ def slow(conn, proxy_type):
 nums = 0
 
 
-def checking(lines,proxy_type,ms,rlock,):#Proxy checker coded by Leeon123
+def checking(lines,proxy_type,ms,rlock,):
 	global nums
 	global proxies
 	proxy = lines.strip().split(":")
@@ -473,7 +475,7 @@ def checking(lines,proxy_type,ms,rlock,):#Proxy checker coded by Leeon123
 			err +=1
 	nums += 1
 
-def check_socks(ms):#Coded by Leeon123
+def check_socks(ms):
 	global nums
 	thread_list=[]
 	rlock = threading.RLock()
@@ -788,7 +790,7 @@ def main():
 
 try:
     if __name__ == "__main__":
-        main()  # Coded by Leeon123, Updated by Ni3zam
+        main()  # Updated and fixed by Vip3r_Li0n
 except:
     KeyboardInterrupt
     print("> Incomplete. Exitting! (Ctrl+C)")
