@@ -14,6 +14,9 @@
 - ✅ Updated proxy list based on rewritten script.
 - ✅ Proxy checker are now fixed.
 - ✅ Added more proxies.
+- ✅ Added KeyboardInterrupt function to avoid terminal hang.
+- ✅ Fixed Slowloris type attack.
+- ✅ Removed broken proxy lists.
 
  Info:
 - ✅ Using Python3
