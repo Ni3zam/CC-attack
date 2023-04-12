@@ -9,6 +9,7 @@
  A script for using socks4/5 or http proxies to attack http(s) server.
 
  News:
+- ⚠️ Proxy checker are not truly precise yet. If you want an interrupted attack, better to check. Else, you can just use the list without checking.
 - ✅ Added Support of HTTP proxies
 - ✅ Updated proxy list based on rewritten script.
 - ✅ Proxy checker are now fixed.
