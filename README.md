@@ -9,6 +9,8 @@
  A script for using socks4/5 or http proxies to attack http(s) server.
 
  News:
+- ⚠️ To have a better impact, use a link that loads something from backend to stress the server even more. IE: https://example.com/index-loader.php
+- ⚠️ I do not guarantee that it can 100% do CF Bypass. If you see a lower hit, use a different proxy and a better User-Agent.
 - ⚠️ Proxy checker are not truly precise yet. If you want an interrupted attack, better to check. Else, you can just use the list without checking.
 - ✅ Added Support of HTTP proxies
 - ✅ Updated proxy list based on rewritten script.
