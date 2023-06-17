@@ -41,7 +41,7 @@ Version 3.7.2 (2023/1/15)
 │           [+] Changed Varible Name               │
 ├──────────────────────────────────────────────────┤
 │  Author: https://github.com/Leeon123/CC-Attack   │
-│  Forked:  https://github.com/Ni3zam/CC-attack    │
+│  Forked: https://github.com/Vip3rLi0n/CC-attack  │
 └──────────────────────────────────────────────────┘
 ''')
 
@@ -528,7 +528,7 @@ def DownloadProxies(proxy_ver):
     if proxy_ver == "4":
         f = open(out_file, 'wb')
         socks4_api = [
-            "https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4",
+           		"https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4",
 			"https://openproxylist.xyz/socks4.txt",
 			"https://proxyspace.pro/socks4.txt",
 			"https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS4.txt",
@@ -571,7 +571,7 @@ def DownloadProxies(proxy_ver):
     if proxy_ver == "5":
         f = open(out_file, 'wb')
         socks5_api = [
-            "https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all&simplified=true",
+            		"https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all&simplified=true",
 			"https://www.proxy-list.download/api/v1/get?type=socks5",
 			"https://www.proxyscan.io/download?type=socks5",
 			"https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt",
@@ -598,7 +598,7 @@ def DownloadProxies(proxy_ver):
     if proxy_ver == "0":
         f = open(out_file, 'wb')
         http_api = [
-            "https://api.proxyscrape.com/?request=displayproxies&proxytype=http",
+            		"https://api.proxyscrape.com/?request=displayproxies&proxytype=http",
 			"https://www.proxy-list.download/api/v1/get?type=http",
 			"https://www.proxyscan.io/download?type=http",
 			"https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt",
