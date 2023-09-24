@@ -41,14 +41,14 @@ Attack requests from Cloudflare activity log
 
 ## Install
     If you only have one version of python:
-    git clone https://github.com/Ni3zam/CC-attack.git
+    git clone https://github.com/Vip3rLi0n/CC-attack.git
     cd CC-attack
     pip install -r requirements.txt
     python cc.py -help
 
     If you are using multiple version of python:
 
-    git clone https://github.com/Ni3zam/CC-attack.git
+    git clone https://github.com/Vip3rLi0n/CC-attack.git
     cd CC-attack
     pip3 install -r requirements.txt
     python3 cc.py -help
